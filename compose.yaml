@@ -1,7 +1,7 @@
 services:
   web:
-    build .
-    ports: 
+    build: .
+    ports:
       - "8080:8080"
     image: product-service
-    container: product-service-container
+    container_name: product-service-container
